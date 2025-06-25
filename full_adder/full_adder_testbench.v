@@ -1,9 +1,9 @@
-module complete_adder_tb();
+module full_adder_tb();
 
 reg [0:3] a,b,c_in;
 output sum,c_out;
 
-complete_adder(
+full_adder(
     .a(a),
     .b(b),
     .c_in(c_in),
