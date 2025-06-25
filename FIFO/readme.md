@@ -1,1 +1,3 @@
+This project implements a synchronous First-In First-Out (FIFO) memory buffer using Verilog. The FIFO design allows data to be written and read sequentially, preserving the order in which it arrives. Internally, it uses pointer-based indexing to manage data storage and wrap-around logic to simulate a circular buffer. It features synchronous read and write operations on the same clock edge, with full and empty flag indicators to monitor buffer status.
 
+ModelSim simulations validate the design's behavior, and waveform captures are included to visually demonstrate the FIFO’s internal state transitions during operation.
