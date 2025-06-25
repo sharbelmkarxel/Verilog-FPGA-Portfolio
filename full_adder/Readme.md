@@ -1,1 +1,1 @@
-
+Basic 1-bit full adder module implemented in Verilog. Accepts two input bits and a carry-in and returns sum and carry-out. Used as a building block for ripple carry adders. Includes waveform-verified testbench.
