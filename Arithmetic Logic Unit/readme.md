@@ -1,1 +1,1 @@
-
+A parameterized Verilog ALU capable of performing basic arithmetic and logic operations (ADD, SUB, AND, OR, XOR, etc.). Includes operation selector input and flags for zero and carry. Testbench includes exhaustive stimulus cases for verification.
