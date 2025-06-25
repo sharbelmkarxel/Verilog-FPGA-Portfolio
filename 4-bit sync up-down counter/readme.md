@@ -1,1 +1,1 @@
-
+synchronous 4-bit up/down counter designed using Verilog. The design supports counting in both directions based on a control input. Includes a testbench for functional verification in ModelSim. Clock and reset are handled synchronously.
