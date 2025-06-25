@@ -1,1 +1,1 @@
-
+A Verilog-based design for buffering and distributing clock signals with minimal skew. Simulates the behavior of hardware clock buffers in synchronous designs. Useful in multi-module designs needing synchronized clocks.
