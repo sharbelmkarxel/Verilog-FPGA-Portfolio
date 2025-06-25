@@ -1,0 +1,26 @@
+module clock_buffer (
+input wire rst,
+input wire clk_in,
+input reg [7:0] data_in,
+output reg [7:0] data_out
+)
+
+wire clk_out;
+
+// Instantiate the BUFG primitive
+// This module buffers the input clock signal to reduce skew and improve timing
+
+BUFG U1(.I(clk_in),.O(clk_out))
+// notice that here we only used clk_out and not clk_in, because of the BUFG primitive
+always @(posedge clk_out or posedge rst) begin
+    if(rst) begin
+        data_out <= 8'b0;
+    end
+    else begin
+        data_out <= data_in;
+    end
+end
+
+    
+endmodule
+
