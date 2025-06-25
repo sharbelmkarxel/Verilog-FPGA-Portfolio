@@ -1,1 +1,1 @@
-
+This module models a single-port Static Random Access Memory (SRAM) in Verilog, capturing the behavior of embedded memory systems found in microcontrollers and cache architectures. It supports synchronous read and write operations controlled by a clock signal and write enable logic. The memory depth and word width are parameterizable, making the design scalable for different applications. Internally, the design uses a register array to store data and update contents based on address input and control signals
